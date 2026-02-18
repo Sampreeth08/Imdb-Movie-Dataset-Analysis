@@ -1,2 +1,50 @@
-# Imdb-Movie-Dataset-Analysis
-ETL &amp; exploratory analysis of the IMDB movies dataset — cleaning, business rules, and visualizations.
+# IMDB Movie Dataset Analysis (Project 1)
+
+## Overview
+
+This repository contains an exploratory data analysis and ETL notebook for the IMDB movie dataset. The primary work is performed in the Jupyter notebook which cleans the data, applies business rules, and produces visualizations useful for movie business analysis and dashboarding.
+
+## Repository Contents
+
+- [IMDB Movie Business Rules and dashboard_problems statements.txt](IMDB%20Movie%20Business%20Rules%20and%20dashboard_problems%20statements.txt): Business rules and problem statements for the dashboard.
+- [imdb_ddl.sql](imdb_ddl.sql): DDL for loading the cleaned dataset into a relational database.
+- [imdb_movies.csv](imdb_movies.csv): Original raw dataset (CSV).
+- [imdb_movies_cleaned.csv](imdb_movies_cleaned.csv): Cleaned and preprocessed dataset exported from the notebook.
+- [imdbmovies_etl.ipynb](imdbmovies_etl.ipynb): Main Jupyter notebook performing ETL and analysis.
+
+## Requirements
+
+- Python 3.8+
+- Jupyter or JupyterLab
+- Common Python packages: `pandas`, `numpy`, `matplotlib`, `seaborn` (install via pip)
+
+You can create a virtual environment and install packages with:
+
+```bash
+python -m venv .venv
+.\.venv\Scripts\activate
+pip install pandas numpy matplotlib seaborn jupyter
+```
+
+## How to run
+
+1. Open the notebook: [imdbmovies_etl.ipynb](imdbmovies_etl.ipynb)
+2. Run the cells sequentially to reproduce the ETL steps and visualizations.
+3. After running, the notebook writes a cleaned CSV: [imdb_movies_cleaned.csv](imdb_movies_cleaned.csv).
+
+## Notebook highlights
+
+- Data loading and initial inspection from [imdb_movies.csv](imdb_movies.csv).
+- Cleaning steps: handling missing values, standardizing columns, parsing dates, and normalizing numeric fields.
+- Business-rule applications as described in [IMDB Movie Business Rules and dashboard_problems statements.txt](IMDB%20Movie%20Business%20Rules%20and%20dashboard_problems%20statements.txt).
+- Visualizations for release trends, top genres, rating distributions, and revenue analysis.
+
+## Database
+
+Use `imdb_ddl.sql` to create the target schema if you want to load the cleaned CSV into a relational database for dashboarding.
+
+## Notes & Next steps
+
+- If you want reproducible runs, add a `requirements.txt` with pinned versions.
+- Consider exporting notebook results to HTML or creating scripts to automate ETL runs.
+
