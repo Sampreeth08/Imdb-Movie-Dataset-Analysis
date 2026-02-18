@@ -43,8 +43,4 @@ pip install pandas numpy matplotlib seaborn jupyter
 
 Use `imdb_ddl.sql` to create the target schema if you want to load the cleaned CSV into a relational database for dashboarding.
 
-## Notes & Next steps
-
-- If you want reproducible runs, add a `requirements.txt` with pinned versions.
-- Consider exporting notebook results to HTML or creating scripts to automate ETL runs.
 
