@@ -41,7 +41,22 @@ pip install pandas matplotlib sql alchemy jupyter
 
 ## Database
 
-Use `imdb_ddl.sql` to create the target schema if you want to load the cleaned CSV into a relational database for dashboarding.
+To load the cleaned dataset into a relational database:
+
+1. Execute the DDL script:
+```bash
+mysql -u root -p imdb_analysis < imdb_ddl.sql
+```
+
+2. Update the database connection in the notebook:
+```python
+engine = create_engine(
+    "mysql+mysqlconnector://root:PASSWORD@localhost:3306/imdb_analysis"
+)
+```
+
+3. Run the notebook to populate the database
+
 
 
 
