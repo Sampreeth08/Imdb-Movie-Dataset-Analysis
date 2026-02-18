@@ -16,14 +16,14 @@ This repository contains an exploratory data analysis and ETL notebook for the I
 
 - Python 3.8+
 - Jupyter or JupyterLab
-- Common Python packages: `pandas`, `numpy`, `matplotlib`, `seaborn` (install via pip)
+- Common Python packages: `pandas`, `matplotlib`, `sql alchemy` (install via pip)
 
 You can create a virtual environment and install packages with:
 
 ```bash
 python -m venv .venv
 .\.venv\Scripts\activate
-pip install pandas numpy matplotlib seaborn jupyter
+pip install pandas matplotlib sql alchemy jupyter
 ```
 
 ## How to run
@@ -42,5 +42,6 @@ pip install pandas numpy matplotlib seaborn jupyter
 ## Database
 
 Use `imdb_ddl.sql` to create the target schema if you want to load the cleaned CSV into a relational database for dashboarding.
+
 
 
