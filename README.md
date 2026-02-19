@@ -18,14 +18,6 @@ This repository contains an exploratory data analysis and ETL notebook for the I
 - Jupyter or JupyterLab
 - Common Python packages: `pandas`, `matplotlib`, `sql alchemy` (install via pip)
 
-You can create a virtual environment and install packages with:
-
-```bash
-python -m venv .venv
-.\.venv\Scripts\activate
-pip install pandas matplotlib sql alchemy jupyter
-```
-
 ## How to run
 
 1. Open the notebook: [imdbmovies_etl.ipynb](imdbmovies_etl.ipynb)
@@ -56,7 +48,3 @@ engine = create_engine(
 ```
 
 3. Run the notebook to populate the database
-
-
-
-
