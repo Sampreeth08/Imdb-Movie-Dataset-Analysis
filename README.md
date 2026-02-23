@@ -61,25 +61,33 @@ This repository contains an exploratory data analysis and ETL notebook for the I
 - Comparison of gross revenue across different years
 
 🔹 **Dashboard 2: Genre Performance Insights**
+
 <img width="580" height="455" alt="image" src="https://github.com/user-attachments/assets/3cf82d94-d919-48c6-a89e-c7b8ee7d8c2e" />
+
 - Average rating distribution across genres
 - Total movies released per genre
 - Genre-wise profitability comparison
 
 🔹 **Dashboard 3: Director Performance Analysis**
+
 <img width="585" height="455" alt="image" src="https://github.com/user-attachments/assets/248afcce-5207-49dd-9b25-c5e4cb01cbc3" />
+
 - Top 5 directors based on average movie rating
 - Director-wise movie count
 - Comparison of director performance by ratings
 
 🔹 **Dashboard 4: Budget & Profitability Analysis**
+
 <img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/2369ada3-9e2a-411c-839b-3120e3123457" />
+
 - Budget vs Gross revenue correlation
 - Most profitable genre (Gross − Budget)
 - Overall profit trends across movies
 
   🔹 **Dashboard 5: Most Profitable Genre Deep Dive**
+
 <img width="589" height="455" alt="image" src="https://github.com/user-attachments/assets/70a5ab38-208e-46f8-91a7-c3b20e50088c" />
+
 - Comprehensive genre profitability analysis
 - Genre-wise profit margins
 - Genre performance comparisons and trends
@@ -90,4 +98,5 @@ This repository contains an exploratory data analysis and ETL notebook for the I
 - Cleaning steps: handling missing values, standardizing columns, parsing dates, and normalizing numeric fields.
 - Business-rule applications as described in [IMDB Movie Business Rules and dashboard_problems statements.txt](IMDB%20Movie%20Business%20Rules%20and%20dashboard_problems%20statements.txt).
 - Visualizations for release trends, top genres, rating distributions, and revenue analysis.
+
 
